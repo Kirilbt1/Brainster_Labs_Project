@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Вработи наш студент</title>
+</head>
+
+<body class="bg-yellow">
+    <nav class="navbar navbar-expand-lg navbar-light bg-yellow ">
+        <a class="navbar-brand" href="./home.html"><img src="./images/Logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://brainster.co/marketing/">Академија
+                        за маркетинг</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://brainster.co/front-end/">Академија
+                        за програмирање</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://brainster.co/data-science/">Академија за data science</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://brainster.co/graphic-design/">Академија за дизајн</a>
+                </li>
+            </ul>
+            <form class=" my-2 my-lg-0">
+                <a href="./vraboti.html" class="vraboti-student"> Вработи наш студент</a>
+
+            </form>
+        </div>
+    </nav>
+
+    <!-- form  -->
+    <div class="bg-yellow">
+        <h1 class="take-student">Вработи студент</h1>
+        <div class="container">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="full_name">Име и презиме</label>
+                        <input type="text" id="full_name" class="form-control" name="full_name"
+                            placeholder="Вашето име и презиме">
+                        <div class="col-12 d-none">
+                            <small class="text-danger">
+                                Мора да внесете Целосно Име
+                            </small>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="company"> Име на компанија </label>
+                        <input type="company" id="company" class="form-control " name="company"
+                            placeholder="Име на вашата компанија">
+                        <div class="col d-none">
+                            <small class="text-danger">
+                                Мора да внесете име на Компанија
+                            </small>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email"> Контакт емаил </label>
+                        <input type="email" id="email" class="form-control " name="email"
+                            placeholder="Контакт емаил на вашата компанија">
+                        <div class="col d-none">
+                            <small class="text-danger">
+                                Внесениот емаил е невалиден
+                            </small>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="tel"> Контакт телефон </label>
+                        <input type="tel" id="tel" class="form-control " name="tel"
+                            placeholder="Контакт телефон на вашата компанија">
+                        <div class="col d-none">
+                            <small class="text-danger">
+                                Морате да внесете телефон од компанијата
+                            </small>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="students"> Тип на студенти </label>
+                        <select class="custom-select custom-select-md  " name="tip">
+                            <option value="Студенти од маркетинг" selected> Студенти од маркетинг </option>
+                            <option value="Студенти од програмирање"> Студенти од програмирање </option>
+                            <option value="Студенти од data science"> Студенти од data science </option>
+                            <option value="Студенти од дизајн"> Студенти од дизајн </option>
+                        </select>
+                        <div class="col d-none">
+                            <small class="text-danger">
+                                Морате да одберете тип на студенти
+                            </small>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 form-group">
+                        <a href="#" type="submit"
+                            class="form-control btn-lg btn-block btn-custom-form mt-4 text-center text-decoration-none bg-danger">
+                            ИСПРАТИ</a>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+        <!-- footer  -->
+        <footer class="height">
+            <h3 class="text-white">Дизајнирано од Кирил Поповски &#10084;</h3>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+            integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+            crossorigin="anonymous"></script>
+</body>
+
+
+</html>

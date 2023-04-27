@@ -1,0 +1,296 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+/* ----------------navbar---------------- */
+.bg-yellow {
+  background-color: rgb(189, 189, 55);
+}
+nav {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.navbar-brand {
+  width: 80px;
+}
+
+.vraboti-student {
+  background-color: red;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 2em;
+}
+
+.vraboti-student:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+.hero-section {
+  position: relative;
+}
+
+.hero-section__image {
+  display: block;
+  position: relative;
+  background-image: cover;
+  background-position: fixed;
+}
+
+.hero-section__image:before {
+  background-color: rgba(48, 47, 56, 0.5);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.hero-section__image > img {
+  display: block;
+  height: auto;
+  max-height: 550px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.hero-section__caption {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-section__caption_title {
+  color: white;
+  text-align: center;
+}
+
+.labs-sect-two {
+  color: white;
+  font-size: 80px;
+  left: 35%;
+  top: 40%;
+  transform: translate(-35, -40);
+  position: absolute;
+}
+
+/* listing */
+.form {
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px;
+  flex-basis: 33.33%;
+  flex-direction: row;
+}
+
+.inputGroup {
+  background-color: #302f38;
+  width: 100%;
+}
+
+.inputGroup input {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.inputGroup label {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+/* cards */
+.margin-top {
+  margin-top: 40px;
+}
+.margin-bot {
+  margin-bottom: 40px;
+}
+
+.coding {
+  color: red;
+}
+
+.design {
+  color: orange;
+}
+
+.marketing {
+  color: aqua;
+}
+
+footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #302f38;
+}
+
+.text-white {
+  color: white;
+}
+
+.height {
+  margin-top: 288px;
+}
+.take-student {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+@media (max-width: 800px) {
+  .form {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* cards */
+
+.all-cards {
+  display: flex;
+  margin-right: -30px;
+  flex-wrap: wrap;
+}
+
+.width-80 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-pic {
+  flex-basis: 33.333333%;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.inner-child {
+  margin-right: 30px;
+  border-radius: 15px;
+}
+
+.inner-child:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+.head-section img {
+  border-radius: 10px;
+}
+
+.body-section {
+  background-color: whitesmoke;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+.img-section {
+  width: 100%;
+}
+
+.title {
+  color: black;
+  font-size: 20px;
+  background-color: yellow;
+  width: 60%;
+}
+
+.project {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+.text-marketing {
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.date-time {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.btn-red {
+  background-color: red;
+  padding: 20px;
+  width: 60%;
+  border-radius: 1.2em;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+.btn-more {
+  color: white;
+  text-decoration: none;
+}
+.btn-red a:hover {
+  color: orange;
+  text-decoration: none;
+}
+.projects {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+  .all-cards {
+    display: flex;
+
+    flex-wrap: wrap;
+  }
+  .card-pic {
+    flex-basis: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .all-cards {
+    display: flex;
+
+    flex-wrap: wrap;
+  }
+  .card-pic {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+}

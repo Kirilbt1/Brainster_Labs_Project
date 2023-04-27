@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Project Brainster</title>
+
+</head>
+
+<body class="bg-yellow">
+
+    <!-- ---------------------navbar----------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-yellow ">
+        <a class="navbar-brand" href="./home.html"><img src="./images/Logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://brainster.co/marketing/">Академија
+                        за маркетинг</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://brainster.co/front-end/">Академија
+                        за програмирање</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://brainster.co/data-science/">Академија за data science</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://brainster.co/graphic-design/">Академија за дизајн</a>
+                </li>
+            </ul>
+            <form class=" my-2 my-lg-0">
+                <a href="./vraboti.html" class="vraboti-student"> Вработи наш студент</a>
+            </form>
+        </div>
+    </nav>
+
+
+    <!-- ---------------------------Picture from brainter--------------------------- -->
+
+    <section class="hero-section">
+        <div class="hero-section__image">
+            <img src="./images/heropic.jpg" alt="Hero Image">
+        </div>
+        <div class="hero-section__caption">
+            <div class="hero-section__caption_title">
+                <h1>Brainster Labs</h1>
+            </div>
+        </div>
+    </section>
+    <!-- form  -->
+
+    <form class="form">
+        <div class="inputGroup">
+            <input id="filter-marketing" name="filter-marketing" type="checkbox">
+            <label for="filter-marketing">Проекти на студенти од академијата за маркетинг</label>
+            <i class="fa fa-check-circle"></i>
+        </div>
+
+        <div class="inputGroup">
+            <input id="filter-coding" name="filter-coding" type="checkbox">
+            <label for="filter-coding">Проекти на студенти од академијата за програмирање</label>
+            <i class="fa fa-check-circle"></i>
+        </div>
+        <div class="inputGroup">
+            <input id="filter-design" name="filter-design" type="checkbox">
+            <label for="filter-design">Проекти на студенти од академијата за дизајн</label>
+            <i class="fa fa-check-circle"></i>
+        </div>
+    </form>
+
+
+    <!-- cards -->
+    <div class="width-80">
+        <h1 class="projects">Проекти</h1>
+        <div class="all-cards ">
+
+            <div class="coding card-pic">
+                <div class="inner-child">
+
+                    <div class="head-section">
+                        <img src="./images/card1.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за програмирање</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="coding card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card2.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за програмирање</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="coding card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card11.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за програмирање</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="coding card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card4.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за програмирање</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="coding card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card5.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за програмирање</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="coding card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card6.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за програмирање</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="coding card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card7.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за програмирање</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="coding card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card8.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за програмирање</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="coding card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card9.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за програмирање</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="coding card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card10.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за програмирање</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="design card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card11.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за дизајн</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="design card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card1.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за дизајн</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="design card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card2.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за дизајн</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="design card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card4.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за дизајн</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="marketing card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card5.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за Маркетинг</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="marketing card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card6.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за Маркетинг</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="marketing card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card7.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за Маркетинг</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="marketing card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card8.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за Маркетинг</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="marketing card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card9.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за Маркетинг</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="marketing card-pic">
+                <div class="inner-child">
+                    <div class="head-section">
+                        <img src="./images/card7.jpg" alt="img-al" class="img-section" />
+                    </div>
+                    <div class="body-section">
+                        <div class="title">
+                            <span>Академија за Маркетинг</span>
+                        </div>
+                        <div class="project">
+                            <h3>Име на проект</h3>
+                        </div>
+                        <div class="text-marketing">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                                beatae, minima aut cum vero sunt.
+                            </p>
+                        </div>
+                        <div class="date-time">
+                            <span>Април - Октомври 2023</span>
+                        </div>
+                        <div class="btn-red">
+                            <a href="#" class="btn-more" target="_blank">Дознај Повеќе</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- footer  -->
+    <footer>
+        <h3 class="text-white">Дизајнирано од Кирил Поповски &#10084;</h3>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
